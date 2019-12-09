@@ -1,0 +1,22 @@
+{
+  "name": "stepcounter-game",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "dependencies": {
+    "pixi.js": "^5.2.0",
+    "vue": "^2.6.10",
+    "vue-hot-reload-api": "^2.3.4"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.0.2",
+    "less": "^3.10.3",
+    "typescript": "^3.7.3",
+    "vue-template-compiler": "^2.6.10",
+    "parcel-plugin-asset-copier": "^1.0.0"
+  }
+}
