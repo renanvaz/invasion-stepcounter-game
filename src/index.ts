@@ -1,5 +1,5 @@
 import Vue from 'vue';
 
-import App from '~/.components/App.vue';
+import Game from '~/.pages/Game.vue';
 
-new Vue({ render: createElement => createElement(App) }).$mount('#app');
+new Vue({ render: createElement => createElement(Game) }).$mount('#app');

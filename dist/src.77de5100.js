@@ -52238,7 +52238,7 @@ exports.default = _default;
         
       }
     })();
-},{"vue-hot-reload-api":"../node_modules/vue-hot-reload-api/dist/index.js","vue":"../node_modules/vue/dist/vue.runtime.esm.js"}],".components/App.vue":[function(require,module,exports) {
+},{"vue-hot-reload-api":"../node_modules/vue-hot-reload-api/dist/index.js","vue":"../node_modules/vue/dist/vue.runtime.esm.js"}],".pages/Game.vue":[function(require,module,exports) {
 "use strict";
 
 var __importDefault = this && this.__importDefault || function (mod) {
@@ -52251,11 +52251,12 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var Renderer_vue_1 = __importDefault(require("./pixi/Renderer.vue"));
+var Renderer_vue_1 = __importDefault(require("../.components/pixi/Renderer.vue"));
 
-var Container_vue_1 = __importDefault(require("./pixi/Container.vue"));
+var Container_vue_1 = __importDefault(require("../.components/pixi/Container.vue"));
 
-var Sprite_vue_1 = __importDefault(require("./pixi/Sprite.vue"));
+var Sprite_vue_1 = __importDefault(require("../.components/pixi/Sprite.vue")); // import MapZigZag    from '../.classes/MapZigZag';
+
 
 exports.default = {
   components: {
@@ -52272,14 +52273,14 @@ exports.default = {
     };
   }
 };
-        var $d714ae = exports.default || module.exports;
+        var $93bae8 = exports.default || module.exports;
       
-      if (typeof $d714ae === 'function') {
-        $d714ae = $d714ae.options;
+      if (typeof $93bae8 === 'function') {
+        $93bae8 = $93bae8.options;
       }
     
         /* template */
-        Object.assign($d714ae, (function () {
+        Object.assign($93bae8, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -52310,7 +52311,7 @@ render._withStripped = true
             render: render,
             staticRenderFns: staticRenderFns,
             _compiled: true,
-            _scopeId: "data-v-d714ae",
+            _scopeId: "data-v-93bae8",
             functional: undefined
           };
         })());
@@ -52323,9 +52324,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$d714ae', $d714ae);
+            api.createRecord('$93bae8', $93bae8);
           } else {
-            api.reload('$d714ae', $d714ae);
+            api.reload('$93bae8', $93bae8);
           }
         }
 
@@ -52336,7 +52337,7 @@ render._withStripped = true
       
       }
     })();
-},{"./pixi/Renderer.vue":".components/pixi/Renderer.vue","./pixi/Container.vue":".components/pixi/Container.vue","./pixi/Sprite.vue":".components/pixi/Sprite.vue","_css_loader":"../../../../../../../../../home/renanvaz/.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js","vue-hot-reload-api":"../node_modules/vue-hot-reload-api/dist/index.js","vue":"../node_modules/vue/dist/vue.runtime.esm.js"}],"index.ts":[function(require,module,exports) {
+},{"../.components/pixi/Renderer.vue":".components/pixi/Renderer.vue","../.components/pixi/Container.vue":".components/pixi/Container.vue","../.components/pixi/Sprite.vue":".components/pixi/Sprite.vue","_css_loader":"../../../../../../../../../home/renanvaz/.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js","vue-hot-reload-api":"../node_modules/vue-hot-reload-api/dist/index.js","vue":"../node_modules/vue/dist/vue.runtime.esm.js"}],"index.ts":[function(require,module,exports) {
 "use strict";
 
 var __importDefault = this && this.__importDefault || function (mod) {
@@ -52351,14 +52352,14 @@ Object.defineProperty(exports, "__esModule", {
 
 var vue_1 = __importDefault(require("vue"));
 
-var App_vue_1 = __importDefault(require("~/.components/App.vue"));
+var Game_vue_1 = __importDefault(require("~/.pages/Game.vue"));
 
 new vue_1.default({
   render: function render(createElement) {
-    return createElement(App_vue_1.default);
+    return createElement(Game_vue_1.default);
   }
 }).$mount('#app');
-},{"vue":"../node_modules/vue/dist/vue.runtime.esm.js","~/.components/App.vue":".components/App.vue"}],"../../../../../../../../../home/renanvaz/.config/yarn/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"vue":"../node_modules/vue/dist/vue.runtime.esm.js","~/.pages/Game.vue":".pages/Game.vue"}],"../../../../../../../../../home/renanvaz/.config/yarn/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -52386,7 +52387,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58863" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64502" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

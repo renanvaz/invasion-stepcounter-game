@@ -9,11 +9,13 @@
 </template>
 
 <script lang="ts">
-    import Vue from 'vue';
+    import Vue          from 'vue';
 
-    import Renderer from './pixi/Renderer.vue';
-    import Container from './pixi/Container.vue';
-    import Sprite from './pixi/Sprite.vue';
+    import Renderer     from '../.components/pixi/Renderer.vue';
+    import Container    from '../.components/pixi/Container.vue';
+    import Sprite       from '../.components/pixi/Sprite.vue';
+
+    // import MapZigZag    from '../.classes/MapZigZag';
 
     export default {
         components: {
