@@ -52267,7 +52267,8 @@ exports.default = {
     return {
       user: {
         distance: 0
-      }
+      },
+      others: []
     };
   }
 };
@@ -52286,18 +52287,13 @@ exports.default = {
   return _c(
     "div",
     [
-      _vm._v("\n    " + _vm._s(_vm.user.distance) + "\n\n    "),
       _c(
         "renderer",
         [
           _c(
             "container",
             { attrs: { x: 400, y: 400 } },
-            [
-              _c("sprite", {
-                attrs: { x: 0, y: 0, src: "./assets/images/logo.png" }
-              })
-            ],
+            [_c("sprite", { attrs: { x: 0, y: 0, src: "./images/tile.png" } })],
             1
           )
         ],
@@ -52390,7 +52386,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65416" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58863" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

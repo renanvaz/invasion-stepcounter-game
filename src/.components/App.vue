@@ -1,10 +1,8 @@
 <template>
     <div>
-        {{ user.distance }}
-
         <renderer>
             <container :x="400" :y="400">
-                <sprite :x="0" :y="0" src="./images/logo.png"/>
+                <sprite :x="0" :y="0" src="./images/tile.png"/>
             </container>
         </renderer>
     </div>
@@ -26,6 +24,7 @@
         data() {
             return {
                 user: { distance: 0 },
+                others: [],
             };
         },
     };
