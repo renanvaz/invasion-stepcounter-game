@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@vue/component-compiler-utils": "^3.0.2",
-    "less": "^3.10.3",
+    "less": "^3.13.1",
     "typescript": "^3.7.3",
     "vue-template-compiler": "^2.6.10",
     "parcel-plugin-asset-copier": "^1.0.0"
